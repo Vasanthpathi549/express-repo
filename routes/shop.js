@@ -12,5 +12,5 @@ router.get('/',(req,res,next)=>{
     // __dirname+"/views/shop.html"
     res.sendFile(path.join(rootDir,'views','shop.html'));
 });
-
+// 
 module.exports = router;

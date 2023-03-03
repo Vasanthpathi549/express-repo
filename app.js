@@ -12,6 +12,7 @@ app.use(express.static(path.join(__dirname,'public')))
 const adminRoutes = require('./routes/admin');
 const shopRoutes = require("./routes/shop");
 
+//Adding routes to use
 app.use(adminRoutes);
 app.use(shopRoutes);
 
